@@ -42,5 +42,6 @@ except ZeroDivisionError:
 while a1:
     print("Okay", "Nah", sep="^")
     a1 = False
+print("Okay")
 
     
