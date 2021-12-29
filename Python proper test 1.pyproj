@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>d944a312-1f46-4eca-844a-a43162b89426</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Blackboard_2.py</StartupFile>
+    <StartupFile>blackboard.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>

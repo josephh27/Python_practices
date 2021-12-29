@@ -4,6 +4,7 @@
 
 K = "Katara"
 A = [K[:a] for a in range(len(K)+1)]
-print(A)
+print(A, sep= "\n")
 #a = "thallen"
 #p = [a[:i]
+print("okay")
