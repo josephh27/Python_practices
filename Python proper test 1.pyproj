@@ -4,13 +4,14 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>d944a312-1f46-4eca-844a-a43162b89426</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Open_file_test.py</StartupFile>
+    <StartupFile>Blackboard_2.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>Python proper test 1</Name>
     <RootNamespace>Python proper test 1</RootNamespace>
+    <TestFramework>Pytest</TestFramework>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
