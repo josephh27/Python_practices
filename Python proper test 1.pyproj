@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>d944a312-1f46-4eca-844a-a43162b89426</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>blackboard.py</StartupFile>
+    <StartupFile>Classes_and_Objects.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -44,6 +44,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Blackboard_2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes_and_Objects.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Open_file_test.py">
