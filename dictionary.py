@@ -13,19 +13,12 @@ monthConversions = {
     "Dec": "December"
 }
     
-print(monthConversions.get("Oc", "Invalid Key"))
-
-i = 240
-while i >= 20:
-    print(i)
-    i /= 3
-    
-print("Done with loop")
+print(monthConversions.get("Oct"))
+citext = " "
+list(monthConversions.keys())[list(monthConversions
+                .values()).index(citext)]
 
 
-running = True
-while running:
-    try:
-        input("Input: ")
-        break
+
+
 
