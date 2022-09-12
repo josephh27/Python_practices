@@ -16,39 +16,40 @@ MORSE_CODE_DICT = { 'A':'.-', 'B':'-...',
 
 
 
-#def encrypt(message):
-#    encrypted = ""
-#    for letter in message:
-#        if letter != " ":
-#            encrypted += MORSE_CODE_DICT[letter] + " "
-#        else:
-#            encrypted += " "
-#    print(encrypted)
+def encrypt(message):
+    encrypted = ""
+    for letter in message:
+        if letter != " ":
+            encrypted += MORSE_CODE_DICT[letter] + " "
+        else:
+            encrypted += " "
+    print(encrypted)
 
 
-#def decrypt(message):
-#    message += " "
-#    citext = ""
-#    decrypted = ""
-#    for letter in message:        
-#        if letter != " ":
-#            citext += letter
-#            space = 0
-#        else:
-#            space += 1          
-#            if space == 1:
-#                decrypted += list(MORSE_CODE_DICT.keys())[list(MORSE_CODE_DICT.values()).index(citext)]
-#                citext = ""
-#            else:
-#                decrypted += " "
+def decrypt(message):
+    message += " "
+    citext = ""
+    decrypted = ""
+    for letter in message:        
+        if letter != " ":
+            citext += letter
+            space = 0
+        else:
+            space += 1          
+            if space == 1:
+                decrypted += list(MORSE_CODE_DICT.keys())[list(MORSE_CODE_DICT.values()).index(citext)]
+                citext = ""
+            else:
+                decrypted += " "
           
-#    print(decrypted)
-
-#if __name__ == "__main__":
-#    the_message = input("Input the message to be encrypted: ")
-#    encrypt(the_message.upper())
-#    the_message1 = input("Input the morse code to be decrypted: ")
-#    decrypt(the_message1)
+if __name__ == "__main__":
+    the_message = input("Input the message to be encrypted: ")
+    encrypt(the_message.upper())
+    the_message1 = input("Input the morse code to be decrypted: ")
+    decrypt(the_message1)
+    
+my_str = str([1,2,3])
+print(my_str)
 
 
 
